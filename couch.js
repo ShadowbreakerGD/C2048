@@ -118,7 +118,7 @@ var incLeft = 0;
     }
 
     function h() {
-        for (var t = 2; t <= 2048; t *= 2) it[t] = 0;
+        for (var t = 2; t <= 999999999999999999999999; t *= 2) it[t] = 0;
         at = new q(280, 480, 400, 60), ct = new q(220, 420, 60, 120), ft = new q(680, 420, 60, 120), new w(at, at.handle0, ct.handle0, .1), new w(at, at.handle1, ft.handle1, .1);
         var e = .5 * S;
         new E(.35 * T, e), new E(.65 * T, e)
